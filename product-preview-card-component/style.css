@@ -13,14 +13,6 @@
   --color-white: hsl(0, 0%, 100%);
 }
 
-button {
-  font-family: 'Montserrat', sans-serif;
-  border: none;
-  cursor: pointer;
-}
-
-
-/* Mobile */
 body {
   display: flex;
   flex-direction: column;
@@ -30,15 +22,19 @@ body {
   height: 100vh;
   color: var(--color-dark-grayish-blue);
   background-color: var(--color-cream);
-  font-family: 'Fraunces', serif;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
+button {
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+/* Mobile */
 .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 343px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -111,6 +107,8 @@ body {
   width: 295px;
   height: 48px;
   border-radius: 7px;
+  font-weight: 700;
+  color: var(--color-white);
   background-color: var(--color-dark-cyan);
   transition: background-color 300ms;
 }
@@ -121,12 +119,6 @@ body {
 
 .button img {
   padding-right: 11px;
-}
-
-.button span {
-  color: var(--color-white);
-  font-size: 14px;
-  font-weight: 700;
 }
 
 .attribution { 
@@ -140,6 +132,7 @@ body {
 /* Desktop */
 @media screen and (min-width: 768px) {
   .card {
+    display: flex;
     flex-direction: row;
     width: 600px;
   }
@@ -156,7 +149,6 @@ body {
   }
   
   .card__contents {
-    width: 236px;
     margin: 32px;
   }
   
