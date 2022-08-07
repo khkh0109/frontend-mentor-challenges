@@ -1,9 +1,4 @@
 /* Global */
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
 :root {
   /* Color */
   --color-orange: hsl(25, 97%, 53%);
@@ -14,16 +9,52 @@
   --color-very-dark-blue: hsl(216, 12%, 8%);
 }
 
+/* Universal tags */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
 body {
+  background-color: var(--color-very-dark-blue);
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: var(--color-white);
+}
+
+p {
+  color: var(--color-light-grey);
+}
+
+button {
+  border: none;
   font-family: 'Overpass', sans-serif;
   font-size: 15px;
 }
 
 
+/* Mobile */
+
+
+
 .attribution { 
+  color: var(--color-light-grey);
   font-size: 11px; 
   text-align: center; 
 }
+
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
+
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  
+}
+
+
