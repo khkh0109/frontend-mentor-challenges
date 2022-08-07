@@ -90,7 +90,12 @@ section.rating {
   margin-bottom: 24px;
 }
 
-.rating__number button {
+.rating__number input[type=radio] {
+  display: none;
+}
+
+.rating__number input[type=radio]+label {
+  display: inline-block;
   width: 42px;
   height: 42px;
   border-radius: 50px;
@@ -100,10 +105,22 @@ section.rating {
   font-weight: 700;
   text-align: center;
   line-height: 44px;
+  cursor: pointer;
+  transition: background-color, 200ms;
 }
 
-.rating__number button:last-child {
+.rating__number input[type=radio]+label:last-child {
   margin-right: 0;
+}
+
+.rating__number input[type=radio]+label:hover {
+  color: var(--color-white);
+  background-color: var(--color-medium-grey);
+}
+
+.rating__number input[type=radio]:checked+label {
+  color: var(--color-white);
+  background-color: var(--color-orange);
 }
 
 .rating__submit {
@@ -116,6 +133,14 @@ section.rating {
   line-height: 46px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color, 200ms;
+}
+
+
+.rating__submit:hover {
+  color: var(--color-orange);
+  background-color: var(--color-white);
 }
 
 /* Mobile - Thank you state */
