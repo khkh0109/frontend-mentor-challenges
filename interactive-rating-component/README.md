@@ -1,4 +1,4 @@
-Live Demo: https://interactive-rating-component-xi-six.vercel.app
+Live demo: https://interactive-rating-component-xi-six.vercel.app
 
 # Frontend Mentor - Interactive rating component
 
