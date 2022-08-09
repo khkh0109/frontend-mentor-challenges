@@ -94,7 +94,6 @@ section.rating {
 }
 
 .rating__number input[type=radio]+label {
-  display: inline-block;
   width: 42px;
   height: 42px;
   border-radius: 50px;
