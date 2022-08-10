@@ -191,5 +191,58 @@ img {
 
 /* Desktop */
 @media screen and (min-width: 768px) {
-
+  .card {
+    width: 350px;
+    padding: 24px 27px;
+  }
+  
+  .card__img img {
+    width: 302px;
+    height: 302px;
+  }
+  
+  .card__img::before {
+    width: 302px;
+    height: 302px;
+  }
+  
+  .card__contents {
+    margin-bottom: 24px;
+  }
+  
+  .card__contents::after {
+    width: 304px;
+  }
+  
+  .card__contents h1 {
+    margin-bottom: 18px;
+  }
+  
+  .card__contents p {
+    margin-bottom: 24px;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 1.4444444444;
+  }
+  
+  .card__info {
+    margin-bottom: 24px;
+  }
+  
+  .card__ethereum {
+    letter-spacing: 0.02em;
+  }
+  
+  .card__clock {
+    letter-spacing: 0em;
+  }
+  
+  .card__creation img {
+    margin-right: 16px;
+  }
+  
+  .card__creation span {
+    font-size: 16px;
+    letter-spacing: 0.008em;
+  }
 }
