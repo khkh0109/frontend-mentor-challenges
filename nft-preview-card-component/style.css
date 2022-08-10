@@ -1,3 +1,33 @@
+/* Global */
+:root {
+  /* Color */
+  --color-soft-blue: hsl(215, 51%, 70%);
+  --color-cyan: hsl(178, 100%, 50%);
+  --color-very-dark-blue-main: hsl(217, 54%, 11%);
+  --color-very-dark-blue-card: hsl(216, 50%, 16%);
+  --color-very-dark-blue-line: hsl(215, 32%, 27%);
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Font weight */
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+  --weight-light: 300;
+}
+
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+
+/* Mobile */
 .attribution { 
   font-size: 11px; 
   text-align: center; 
@@ -5,4 +35,10 @@
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+
 }
