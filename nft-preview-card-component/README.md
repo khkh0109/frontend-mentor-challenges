@@ -1,3 +1,5 @@
+Live demo: https://nft-preview-0109.netlify.app/
+
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
