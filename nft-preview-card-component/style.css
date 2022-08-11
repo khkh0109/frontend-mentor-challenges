@@ -46,6 +46,7 @@ img {
 }
 
 .card__img {
+  display: block;
   position: relative;
 }
 
@@ -193,7 +194,7 @@ img {
 @media screen and (min-width: 768px) {
   .card {
     width: 350px;
-    padding: 24px 27px;
+    padding: 27px 24px;
   }
   
   .card__img img {
