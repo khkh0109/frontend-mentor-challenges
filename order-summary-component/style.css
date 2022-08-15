@@ -1,3 +1,37 @@
+/* Global */
+:root {
+  /* Color */
+  --color-very-pale-blue: hsl(225, 100%, 98%);
+  --color-pale-blue: hsl(225, 100%, 94%);
+  --color-desaturated-blue: hsl(224, 23%, 55%);
+  --color-bright-blue: hsl(245, 75%, 52%);
+  --color-dark-blue: hsl(223, 47%, 23%);
+
+  /* Font weight */
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-black: 900;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+/* Mobile */
+
 
 
 .attribution { 
@@ -7,4 +41,9 @@
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  
 }
