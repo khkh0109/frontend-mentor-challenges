@@ -29,7 +29,7 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
   background-repeat: no-repeat;
-  background-color: var(--color-pale-blue);;
+  background-color: var(--color-pale-blue);
   background-image: url('./images/pattern-background-mobile.svg');
   background-size: 100% auto;
 }
@@ -46,6 +46,7 @@ button {
   border-radius: 20px;
   margin-bottom: 20px;
   background-color: #fff;
+  box-shadow: 0px 50px 65px -23px #382AE026;
 }
 
 .card__img {
@@ -182,5 +183,65 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 768px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }
+
+  .card {
+    width: 450px;
+  }
   
+  .card__img {
+    height: 220px;
+  }
+  
+  .card__contents {
+    padding: 46px 48px 34px 48px;
+  }
+  
+  .card__contents h1 {
+    font-size: 28px;
+    letter-spacing: 0.02em;
+  }
+  
+  .card__contents p {
+    width: 294px;
+    margin: 0 auto 20px auto;
+    line-height: 1.625;
+    letter-spacing: 0.001em;
+  }
+  
+  .card__plan {
+    width: 354px;
+    height: 98px;
+    margin-bottom: 32px;
+  }
+  
+  .card__info {
+    margin: 0 92px 0 19px;
+  }
+  
+  .card__info strong:first-child {
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  
+  .card__info strong:last-child {
+    font-size: 16px;
+  }
+  
+  .card__change {
+    font-size: 14px;
+  }
+  
+  .button__payment {
+    width: 354px;
+    margin-bottom: 17px;
+    letter-spacing: 0;
+  }
+  
+  .button__cancel {
+    width: 354px;
+    letter-spacing: 0;
+  }
 }
