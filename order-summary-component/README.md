@@ -1,4 +1,4 @@
-Live demo: https://app.netlify.com/sites/order-summary-component-22815/overview
+Live demo: https://order-summary-component-22815.netlify.app
 
 # Frontend Mentor - Order summary card
 
