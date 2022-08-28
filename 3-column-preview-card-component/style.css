@@ -1,8 +1,29 @@
+/* Global */
+:root {
+  /* Color */
+  --color-bright-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-very-dark-cyan: hsl(179, 100%, 13%);
+  --color-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --color-very-light-gray: hsl(0, 0%, 95%);
+
+  /* Font weight */
+  --weight-regular: 400;
+  --weight-bold: 700;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 
 body {
   font-family: 'Big Shoulders Display', cursive;
   font-family: 'Lexend Deca', sans-serif;
 }
+
+/* Monile */
 
 .attribution { 
   font-size: 11px; 
@@ -11,4 +32,10 @@ body {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+  
 }
