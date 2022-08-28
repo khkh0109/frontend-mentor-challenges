@@ -152,5 +152,34 @@ body {
 
 /* Desktop */
 @media screen and (min-width: 768px) {
-  
+  .card {
+    display: flex;
+    width: 951px;
+    position: relative;
+    right: 15px;
+  }
+
+  .card__section:first-child {
+    width: 322px;
+    padding-right: 63px;
+    padding-bottom: 48px;
+    top: 0;
+    left: 30px;
+  }
+
+  .card__section:nth-child(2) {
+    width: 322px;
+    padding-right: 63px;
+    padding-bottom: 48px;
+    top: 0;
+    left: 15px;
+  }
+
+  .card__section:last-child {
+    width: 307px;
+  }
+
+  .card__section p {
+    margin-bottom: 83px;
+  }
 }
