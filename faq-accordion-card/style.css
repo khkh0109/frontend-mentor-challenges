@@ -1,7 +1,36 @@
+/* Global */
+:root {
+  /* Color */
+  --color-very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --color-soft-red: hsl(14, 88%, 65%);
+  --color-soft-violet: hsl(273, 75%, 66%);
+  --color-soft-blue: hsl(240, 73%, 65%);
+  --color-very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --color-dark-grayish-blue: hsl(240, 6%, 50%);
+  --color-light-grayish-blue: hsl(240, 5%, 91%);
+
+  /* Font weight */
+  --weight-regular: 400;
+  --weight-bold: 700;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
 }
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* Mobile */
+
 
 .attribution { 
   font-size: 11px; 
@@ -10,4 +39,11 @@ body {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+
+
+/* Desktop */
+@media screen and (min-width: 768px) {
+
 }
