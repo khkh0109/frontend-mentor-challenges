@@ -125,5 +125,51 @@ ul {
 
 /* Desktop */
 @media screen and (min-width: 768px) {
+  .card {
+    width: 920px;
+    padding: 66px 94px 83px 474px;
+  }
+  
+  .card::before {
+    content: '';
+    display: block;
+    width: 388px;
+    height: 100%;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url('./images/illustration-woman-online-desktop.svg'), url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 472px 359px, 966px 945px;
+    background-position: top 71px right, right bottom -120px;
+  }
 
+  .card::after {
+    content: '';
+    display: block;
+    width: 191px;
+    height: 184px;
+    position: absolute;
+    top: 206px;
+    left: -93px;
+    background-image:url('./images/illustration-box-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 191px 184px;
+    background-position: center;
+  }
+  
+  .card__title {
+    margin-bottom: 37px;
+    text-align: left;
+  }
+  
+  .card__accordion li h2 {
+    font-size: 14px;
+  }
+  
+  .card__accordion li p.act {
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
 }
