@@ -81,6 +81,11 @@ ul {
   font-size: 13px;
   font-weight: 400;
   cursor: pointer;
+  transition: color 300ms;
+}
+
+.card__accordion li h2:hover {
+  color: var(--color-soft-red);
 }
 
 .card__accordion li h2::after {
