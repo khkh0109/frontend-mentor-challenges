@@ -1,8 +1,6 @@
 'use strict';
 
-const li = document.querySelector('.card__accordion li');
 const h2 = document.querySelectorAll('.card__accordion li h2');
-const p = document.querySelector('.card__accordion li p');
 
 h2.forEach(element => {
   element.addEventListener('click', (event) => {
