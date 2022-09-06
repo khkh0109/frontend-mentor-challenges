@@ -69,20 +69,21 @@ ul {
   text-align: center;
 }
 
-.card ul li {
+.card__accordion li {
   padding: 17px 0 17px 0;
   border-bottom: 1px solid var(--color-light-grayish-blue);
 }
 
-.card ul li h2 {
+.card__accordion li h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
   font-weight: 400;
+  cursor: pointer;
 }
 
-.card ul li h2::after {
+.card__accordion li h2::after {
   content: '';
   display: block;
   width: 10px;
@@ -90,23 +91,25 @@ ul {
   background-image: url('./images/icon-arrow-down.svg');
   background-repeat: no-repeat;
   background-size: contain;
+  transform: var(--rotate);
 }
 
 .card__title,
-.card ul li h2 {
+.card__accordion li h2 {
   color: var(--color-very-dark-grayish-blue);
 }
 
-.card ul li p {
+.card__accordion li p {
+  display: none;
+}
+
+.card__accordion li p.act {
+  display: block;
   margin-top: 11px;
   color: var(--color-dark-grayish-blue);
   font-size: 12px;
   line-height: 1.4166666667;
   letter-spacing: 0.005em;
-}
-
-.hidden {
-  display: none;
 }
 
 .attribution { 
