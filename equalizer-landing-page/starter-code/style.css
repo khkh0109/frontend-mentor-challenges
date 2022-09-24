@@ -5,19 +5,258 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #191826;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 12px;
+  height: 61px;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7777777778;
+  letter-spacing: -0.01em;
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
+  color: #191826;
+}
+
+.landing__logo {
+  display: block;
+  width: 147px;
+  height: 32px;
 }
 
 /* Mobile */
+body {
+  background-image: url('./assets/bg-main-mobile.png');
+  background-repeat: no-repeat;
+  background-size: 165% auto;
+  background-position: left 0px top -220px;
+}
 
+header,
+main,
+footer {
+  width: 375px;
+}
+
+header {
+  padding: 39px 24px 64.01px 24px;
+}
+
+main {
+  position: relative;
+}
+
+main::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 430px;
+  position: absolute;
+  bottom: 594px;
+  background-image: url('./assets/illustration-app.png');
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+}
+
+main::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 326px;
+  background-color: #191826;
+  background-image: url('./assets/bg-pattern-2.svg');
+  background-repeat: no-repeat;
+  background-position:top center;
+  background-size: 280px 420px;
+  z-index: -1;
+}
+
+main .landing__content {
+  padding: 0 24px 546px 24px;
+}
+
+main .landing__content h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.01125em;
+}
+
+main .landing__content p {
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+main .landing__card {
+  width: 100%;
+  padding: 48px 36px;
+  border-radius: 12px;
+  background-color: #FA7453;
+}
+
+main .card__content {
+  color: #FCFAF9;
+  margin-bottom: 32px;
+}
+
+main .card__content h1 {
+  margin-bottom: 12px;
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+main .card__content p {
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 1.5555555556;
+}
+
+main .card__content strong {
+  display: flex;
+  align-items: center;
+}
+
+main .card__content strong span:first-child {
+  display: block;
+  height: 52px;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+main .card__content strong span:last-child {
+  margin-left: 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+}
+
+main .card__content strong span:last-child::before {
+  content: '/ ';
+}
+
+main .card__button--ios {
+  width: 296px;
+  margin-bottom: 16px;
+  color: #FCFAF9;
+  background-color: #191826;
+  transition: all 300ms;
+}
+
+main .card__button--ios:hover {
+  background-color: #66E2DC;
+}
+
+main .card__button--ios::before {
+  content: '';
+  width: 17.08px;
+  height: 20px;
+  margin-right: 7.92px;
+  background-image: url('./assets/icon-apple.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+main .card__button--android {
+  width: 296px;
+  color: #191826;
+  background-color: #FCFAF9;
+  transition: all 300ms;
+}
+
+main .card__button--android:hover {
+  background-color: #FFB964;
+}
+
+main .card__button--android::before {
+  content: '';
+  width: 16.07px;
+  height: 20px;
+  margin-right: 7.8px;
+  background-image: url('./assets/icon-android.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+footer {
+  padding: 64px 24px 80px 24px;
+}
+
+footer .landing__logo {
+  margin-bottom: 32.01px;
+}
+
+footer p {
+  margin-bottom: 64px;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icons .facebook,
+.icons .instagram,
+.icons .twitter {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #191826;
+  overflow: hidden;
+  text-indent: -99px;
+  transition: all 300ms;
+}
+
+.icons .facebook {
+  margin-right: 20px;
+  mask: url('./assets/icon-facebook.svg') no-repeat;
+  -webkit-mask: url('./assets/icon-facebook.svg') no-repeat;
+}
+
+.icons .instagram {
+  margin-right: 20px;
+  mask: url('./assets/icon-instagram.svg') no-repeat;
+  -webkit-mask: url('./assets/icon-instagram.svg') no-repeat;
+}
+
+.icons .twitter {
+  height: 16.25px;
+  mask: url('./assets/icon-twitter.svg') no-repeat;
+  -webkit-mask: url('./assets/icon-twitter.svg') no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+}
+
+.icons .facebook:hover,
+.icons .instagram:hover,
+.icons .twitter:hover {
+  background-color: #FA7453;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
