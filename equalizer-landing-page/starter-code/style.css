@@ -19,6 +19,7 @@ button {
   align-items: center;
   border: none;
   border-radius: 12px;
+  width: 296px;
   height: 61px;
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 18px;
@@ -156,7 +157,6 @@ main .card__content strong span:last-child::before {
 }
 
 main .card__button--ios {
-  width: 296px;
   margin-bottom: 16px;
   color: #FCFAF9;
   background-color: #191826;
@@ -179,7 +179,6 @@ main .card__button--ios::before {
 }
 
 main .card__button--android {
-  width: 296px;
   color: #191826;
   background-color: #FCFAF9;
   transition: all 300ms;
@@ -263,8 +262,8 @@ footer p {
   body {
     background-image: url('./assets/bg-pattern-1.svg'), url('./assets/bg-main-tablet.png');
     background-repeat: no-repeat, no-repeat;
-    background-size: 266.67px, 140% auto;
-    background-position: right -35.67px top -32px, left -270px top -220px;
+    background-size: 266.67px, 983px;
+    background-position: right -35.67px top -32px, right 39px top -112px;
   }
   
   header,
@@ -282,14 +281,12 @@ footer p {
     height: 556px;
     left: 64px;
     bottom: 278px;
-    background-image: url('./assets/illustration-app.png');
     background-position:left;
     z-index: -1;
   }
   
   main::after {
     bottom: 96px;
-    background-image: url('./assets/bg-pattern-2.svg');
     background-position: top -30px left 229px;
     z-index: -2;
   }
@@ -335,5 +332,90 @@ footer p {
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
+  body {
+    background-image: url('./assets/bg-pattern-1.svg'), url('./assets/bg-main-desktop.png');
+    background-size: 312px, 1613px;
+    background-position: right 0 top -40px, right -87px top -200px;
+  }
+
+  button {
+    width: 333px;
+  }
   
+  header,
+  main,
+  footer {
+    width: 1110px;
+  }
+  
+  header {
+    padding: 61.99px 0 127.01px 0;
+  }
+  
+  main::before {
+    width: 312px;
+    height: 642px;
+    left: 102px;
+    bottom: 286px;
+  }
+  
+  main::after {
+    bottom: 115px;
+    background-size: 312px;
+    background-position: top -40px left 336px;
+  }
+  
+  main .landing__content {
+    width: 1015px;
+    padding: 0 0 411px 0;
+  }
+
+  main .landing__content h1 {
+    margin-bottom: 40px;
+    font-size: 88px;
+    letter-spacing: -0.01136363636em;
+  }
+  
+  main .landing__content p {
+    width: 825px;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+  
+  main .landing__card {
+    width: 446px;
+    padding: 58px 59px 48px 54px;
+    margin: 0 95px 0 569px;
+  }
+
+  main .card__content h1 {
+    margin-bottom: 22px;
+    font-size: 40px;
+    line-height: 1.3;
+  }
+
+  main .card__content p {
+    margin-bottom: 39px;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  footer {
+    display: flex;
+    padding: 87px 0 91px 0;
+  }
+
+  footer .landing__logo {
+    margin-right: 137.76px;
+  }
+
+  .footer__content {
+    display: flex;
+  }
+  
+  footer p {
+    width: 366px;
+    margin-bottom: 0;
+    margin-right: 359px;
+  }
 }
