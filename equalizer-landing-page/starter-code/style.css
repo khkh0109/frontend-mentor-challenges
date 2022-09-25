@@ -260,7 +260,77 @@ footer p {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  body {
+    background-image: url('./assets/bg-pattern-1.svg'), url('./assets/bg-main-tablet.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 266.67px, 140% auto;
+    background-position: right -35.67px top -32px, left -270px top -220px;
+  }
   
+  header,
+  main,
+  footer {
+    width: 696px;
+  }
+  
+  header {
+    padding: 61.99px 0 95.01px 0;
+  }
+  
+  main::before {
+    width: 270.21px;
+    height: 556px;
+    left: 64px;
+    bottom: 278px;
+    background-image: url('./assets/illustration-app.png');
+    background-position:left;
+    z-index: -1;
+  }
+  
+  main::after {
+    bottom: 96px;
+    background-image: url('./assets/bg-pattern-2.svg');
+    background-position: top -30px left 229px;
+    z-index: -2;
+  }
+  
+  main .landing__content {
+    width: 520px;
+    padding: 0 0 399px 0;
+  }
+
+  main .landing__content h1 {
+    margin-bottom: 28px;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.01140625em;
+  }
+  
+  main .landing__content p {
+    width: 514px;
+    font-size: 18px;
+    line-height: 1.5555555556;
+  }
+  
+  main .landing__card {
+    width: 399px;
+    padding: 48px;
+    margin: 0 58px 0 239px;
+  }
+  
+  footer {
+    padding: 87px 0 85px 0;
+  }
+
+  .footer__content {
+    display: flex;
+  }
+  
+  footer p {
+    width: 366px;
+    margin-bottom: 0;
+    margin-right: 230px;
+  }
 }
 
 /* Desktop */
