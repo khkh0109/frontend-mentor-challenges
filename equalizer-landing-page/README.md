@@ -1,3 +1,5 @@
+Live Demo: https://equalizer-landing-page-220925.netlify.app
+
 # Frontend Mentor - Equalizer landing page
 
 ![Design preview for the Equalizer landing page coding challenge](./preview.jpg)
