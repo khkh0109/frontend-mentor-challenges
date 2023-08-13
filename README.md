@@ -1,2 +1,3 @@
-# frontend-mentor-challenges
- Frontend Mentor Challenges
+<div align="center">
+ <h1>Frontend Mentor Challenges</h1>
+</div>
