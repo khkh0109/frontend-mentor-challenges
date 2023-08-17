@@ -1,90 +1,37 @@
-Live Demo: https://equalizer-landing-page-220925.netlify.app
-
 # Frontend Mentor - Equalizer landing page
+🔗 Live Demo: https://equalizer-landing-page-220925.netlify.app
 
-![Design preview for the Equalizer landing page coding challenge](./preview.jpg)
+<br/>
 
-## Welcome! 👋
+## 사용 
+- HTML
+- CSS
 
-Thanks for purchasing this premium Frontend Mentor coding challenge.
+<br/>
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. These premium challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
+## 페이지 
+|모바일|태블릿|데스크탑|
+|---|---|---|
+|![equalizer-mob-resize](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/2b5706e6-63a8-4bfc-861f-01bbcdc70927)|![equalizer-tab](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/fc2c3fc9-492d-4ee9-86c2-a45e74db8248)|![equalizer-desk](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/90316764-c74d-4cb7-9975-b30460089ec3)|
 
-**To do this challenge, you need a good understanding of HTML and CSS.**
+<br/>
 
-## The challenge
+## 레이아웃 
+<img width="400" alt="equalizer-layout" src="https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/7f6840a4-cb6a-40fd-8bf7-5a34fe536640">
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+<br/>
 
-Your users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
-
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
-
-## Where to find everything
-
-Your task is to build out the project to the design file provided. We provide both Sketch and Figma versions of the design, so you can choose which tool you prefer to use. You can download the design file on the platform. **Please be sure not to share them with anyone else.** The design download comes with a `README.md` file as well to help you get set up.
-
-All the required assets for this project are in the `/assets` folder. The assets are already exported for the correct screen size and optimized. Some images are reusable at multiple screen sizes. So if you don't see an image in a specific folder, it will typically be in another folder for that page.
-
-The design system in the design file will give you more information about the various colors, fonts, and styles used in this project. Our fonts always come from [Google Fonts](https://fonts.google.com/).
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Separate the `starter-code` from the rest of this project and rename it to something meaningful for you. Initialize the codebase as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/). **⚠️ IMPORTANT ⚠️: There are already a couple of `.gitignore` files in this project. Please do not remove them or change the content of the files. If you create a brand new project, please use the `.gitignore` files provided in your new codebase. This is to avoid the accidental upload of the design files to GitHub. With these premium challenges, please be sure not to share the design files in your GitHub repo. Thanks!**
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-**⚠️ IMPORTANT ⚠️: With these premium challenges, please be sure not to upload the design files to GitHub when you're submitting to the platform and sharing it around. If you've created a brand new project, the easiest way to do that is to copy across the `.gitignore` provided in this starter project.**
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-**Have fun building!** 🚀
+## 학습한 내용 
+- 웹 접근성을 고려한 텍스트 숨기기
+    - 화면에 SNS 로고는 아이콘으로 표시된다. 보는 사람은 각각 어떤 SNS인지 알 수 있지만 스크린 리더를 사용하는 사용자는 스크린 리더가 아이콘을 읽지 않으면 어떤 SNS인지 알기 힘들다.
+    - 그래서 a 요소에 각 SNS 이름을 추가하고 화면에는 안 보이게 가리되 스크린 리더는 읽을 수 있도록 처리했다.
+    - text-indent에 음수값을 지정해서 아이콘 영역 바깥으로 텍스트를 밀어내고, overflow를 hidden으로 설정해서 영역을 벗어나는 요소(SNS 이름)를 가렸다. 그리고 mask를 사용해 SNS 아이콘을 추가했다.
+        - `text-indent` 텍스트 들여쓰기의 길이를 설정함
+        - `mask` 아이템이 부분적으로만 보여지게 하거나 완전히 가려서 보이지 않게 할 수 있음
+    - 참고: `display: none`으로 요소를 가리면 해당 요소가 완전히 사라지고 스크린리더로 읽을 수도 없게된다.
+- 링크 클릭하면 메일 보내기
+    - a 태그의 href 속성에 `mailto:` 를 이메일 주소 앞에 붙이면 사용자가 사용하는 메일 보내기 프로그램이 실행됨
+      ```html
+      <a href="mailto:equalizer@example.com">equalizer@example.com</a>
+      ```
