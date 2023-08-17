@@ -13,9 +13,7 @@
 ## 페이지 
 |모바일|데스크탑|
 |---|---|
-|![faq-mobile](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/87d6a68d-8d89-46ce-a68e-c53986f6a2b0)|![faq-desktop](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/542e534f-dcf6-419b-a1c4-042b146945b9)|
-
-
+|![faq-mobile](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/d875866d-d3dd-4d32-9358-02f832d92b8f)|![faq-desktop](https://github.com/khkh0109/frontend-mentor-challenges/assets/77181642/542e534f-dcf6-419b-a1c4-042b146945b9)|
 
 <br/>
 
